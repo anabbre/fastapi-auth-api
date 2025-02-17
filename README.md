@@ -34,15 +34,16 @@ git clone https://github.com/anabbfre/fastapi-auth-api.git
 cd fastapi-auth-api
 ```
 
-### 1️⃣ Clonar el repositorio
-```bash
-git clone https://github.com/anabbfre/fastapi-auth-api.git
-cd fastapi-auth-api
-``
+## 2. Crear y activar un entorno virutal (opcional pero recomendado)
+```python -m venv venv
+source venv/bin/activate  # Mac/Linux
+venv\Scripts\activate  # Windows
+```
 
-## 🚀 Instalación y configuración
 
-### 1️⃣ Crear y activar un entorno virutal 
+
+
+
 ### 2️⃣ **Crear y activar un entorno virtual** (opcional pero recomendado)
 python -m venv venv
 source venv/bin/activate  # Mac/Linux
