@@ -26,28 +26,28 @@ Esta es una API de autenticación desarrollada con **FastAPI** que implementa **
 
 
 
-## 🚀 Instalación y Configuración  
 
+### 🚀 Instalación y configuración
 
-1️⃣ **Clonar el repositorio**  
+#### 1️⃣ Clonar el repositorio
 ```bash
 git clone https://github.com/anabbfre/fastapi-auth-api.git
 cd fastapi-auth-api
-```
+
 
 2️⃣ **Crear y activar un entorno virtual** (opcional pero recomendado)
-```python -m venv venv
+python -m venv venv
 source venv/bin/activate  # Mac/Linux
 venv\Scripts\activate  # Windows
-```
+
 
 3️⃣ **Instalar dependencias**
-```pip install -r requirements.txt
-```
+pip install -r requirements.txt
+
 
 4️⃣ **Ejecutar el servidor**
-```uvicorn main:app --reload
-```
+uvicorn main:app --reload
+
 
 
 **Accede a la API en http://127.0.0.1:8000/docs para probar los endpoints desde Swagger UI**.
