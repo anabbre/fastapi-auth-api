@@ -106,7 +106,6 @@ password: contraseña_segura
 
 
 
-  
 
 # 🔒 **Obtener perfil del usuario autenticado**
 📌 Ruta: GET /profile
@@ -123,11 +122,6 @@ Authorization: Bearer <token_jwt>
 
 
 
-
-
-
-
-  
 # 🛠️ **Herramientas Adicionales**
 📌 Swagger UI: http://127.0.0.1:8000/docs
 📌 ReDoc: http://127.0.0.1:8000/redoc
@@ -136,7 +130,8 @@ Ambas interfaces permiten probar la API de manera interactiva.
 
 
 
-  
+
+
 
 ## 📜 **Licencia**
 Este proyecto es de código abierto bajo la licencia MIT.
