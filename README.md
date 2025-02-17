@@ -7,13 +7,13 @@ Esta es una API de autenticación desarrollada con **FastAPI** que implementa **
 
 
 ## 📂 Estructura del Proyecto  
-📦 fastapi-auth-api/\ 
-┣ 📄 main.py → Código principal de la API.\
-┣ 📄 auth.py → Lógica de autenticación (JWT y contraseñas).\
-┣ 📄 models.py → Esquemas de datos y validaciones.\ 
-┣ 📄 database.py → Simulación de base de datos (por ahora en memoria).\ 
-┣ 📄 requirements.txt → Librerías necesarias.\ 
-┣ 📄 README.md → Este archivo.\
+📦 fastapi-auth-api/
+┣ 📄 main.py → Código principal de la API.
+┣ 📄 auth.py → Lógica de autenticación (JWT y contraseñas).
+┣ 📄 models.py → Esquemas de datos y validaciones.
+┣ 📄 database.py → Simulación de base de datos (por ahora en memoria).
+┣ 📄 requirements.txt → Librerías necesarias.
+┣ 📄 README.md → Este archivo.
 
 
 
