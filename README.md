@@ -5,6 +5,7 @@
 Esta es una API de autenticación desarrollada con **FastAPI** que implementa **JWT (JSON Web Token)** para la gestión de usuarios. Permite el **registro, inicio de sesión y acceso a un perfil protegido** con autenticación.  
 
 
+  
 
 ## 📂 Estructura del Proyecto  
 📦 fastapi-auth-api/  
@@ -16,7 +17,9 @@ Esta es una API de autenticación desarrollada con **FastAPI** que implementa **
 ┣ 📄 README.md → Este archivo.  
 
 
+    
 
+  
 ## 🛠️ Tecnologías Usadas  
 ✅ **FastAPI** → Framework para construir APIs rápidas y eficientes.  
 ✅ **Pydantic** → Validación de datos.  
@@ -55,6 +58,9 @@ uvicorn main:app --reload
 
 
 
+    
+
+  
 > **Accede a la API en http://127.0.0.1:8000/docs para probar los endpoints desde Swagger UI**
 
 
@@ -62,6 +68,7 @@ uvicorn main:app --reload
 
 
 
+  
 🔑 **Endpoints Disponibles**
 📝 Registro de usuario
 📌 Ruta: POST /register
@@ -79,6 +86,7 @@ uvicorn main:app --reload
 }
 
 
+  
 
 # 🔐 **Iniciar sesión**
 📌 Ruta: POST /login
@@ -94,6 +102,7 @@ password: contraseña_segura
 }
 
 
+  
 
 # 🔒 **Obtener perfil del usuario autenticado**
 📌 Ruta: GET /profile
@@ -108,6 +117,7 @@ Authorization: Bearer <token_jwt>
 
 
 
+  
 # 🛠️ **Herramientas Adicionales**
 📌 Swagger UI: http://127.0.0.1:8000/docs
 📌 ReDoc: http://127.0.0.1:8000/redoc
@@ -116,6 +126,7 @@ Ambas interfaces permiten probar la API de manera interactiva.
 
 
 
+  
 
 ## 📜 **Licencia**
 Este proyecto es de código abierto bajo la licencia MIT.
