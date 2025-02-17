@@ -97,7 +97,10 @@ uvicorn main:app --reload
 ```
 username: usuario123
 password: contraseña_segura
+```
+
 📌 Respuesta esperada:
+```
 {
   "access_token": "eyJhbGciOiJIUz...",
   "token_type": "bearer"
