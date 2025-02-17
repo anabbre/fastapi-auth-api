@@ -54,11 +54,9 @@ uvicorn main:app --reload
 ```
 
 
+> **Accede a la API en http://127.0.0.1:8000/docs para probar los endpoints desde Swagger UI**
 
 
-
-
- **Accede a la API en http://127.0.0.1:8000/docs para probar los endpoints desde Swagger UI**
 
 
 
@@ -80,7 +78,7 @@ uvicorn main:app --reload
 
 
 
-🔐 **Iniciar sesión**
+# 🔐 **Iniciar sesión**
 📌 Ruta: POST /login
 📌 Descripción: Permite a un usuario autenticarse y obtener un token JWT.
 📌 Parámetros (form-data):
@@ -95,7 +93,7 @@ password: contraseña_segura
 
 
 
-🔒 **Obtener perfil del usuario autenticado**
+# 🔒 **Obtener perfil del usuario autenticado**
 📌 Ruta: GET /profile
 📌 Descripción: Devuelve la información del usuario autenticado.
 📌 Encabezado requerido:
@@ -108,7 +106,7 @@ Authorization: Bearer <token_jwt>
 
 
 
-🛠️ **Herramientas Adicionales**
+# 🛠️ **Herramientas Adicionales**
 📌 Swagger UI: http://127.0.0.1:8000/docs
 📌 ReDoc: http://127.0.0.1:8000/redoc
 
@@ -117,5 +115,5 @@ Ambas interfaces permiten probar la API de manera interactiva.
 
 
 
-📜 **Licencia**
+## 📜 **Licencia**
 Este proyecto es de código abierto bajo la licencia MIT.
