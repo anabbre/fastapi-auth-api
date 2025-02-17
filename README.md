@@ -142,7 +142,9 @@ Authorization: Bearer <token_jwt>
 
 Ambas interfaces permiten probar la API de manera interactiva.  
 
-## 🚀 Cliente de la API en Python
+  
+
+# 🚀 Cliente de la API en Python
 
 Se incluye un script `cliente_api.py` que permite probar la API de autenticación realizando las siguientes acciones:
 
@@ -170,18 +172,7 @@ eyJhbGciOiJIUz...
 {"username": "usuario123", "full_name": "Usuario Ejemplo"}
 ```  
 Este script es útil para realizar pruebas rápidas sin necesidad de herramientas externas como Postman.  
-```
 
----
-
-#### 3️⃣ **Registrar los cambios en `README.md` y subirlos a GitHub**
-Una vez que hayas editado y guardado el `README.md`, súbelo al repositorio con:
-
-```bash
-git add README.md
-git commit -m "Añadida documentación sobre cliente_api.py"
-git push origin main
-```
 
 
 
