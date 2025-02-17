@@ -35,18 +35,17 @@ git clone https://github.com/anabbfre/fastapi-auth-api.git
 cd fastapi-auth-api
 
 
-
-2️⃣ **Crear y activar un entorno virtual** (opcional pero recomendado)
+### 2️⃣ Crear y activar un entorno virtual (opcional pero recomendado)
 python -m venv venv
 source venv/bin/activate  # Mac/Linux
 venv\Scripts\activate  # Windows
 
 
-3️⃣ **Instalar dependencias**
+### 3️⃣ Instalar dependencias
 pip install -r requirements.txt
 
 
-4️⃣ **Ejecutar el servidor**
+### 4️⃣ Ejecutar el servidor
 uvicorn main:app --reload
 
 
