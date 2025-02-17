@@ -27,12 +27,13 @@ Esta es una API de autenticación desarrollada con **FastAPI** que implementa **
 
 
 
-### 🚀 Instalación y configuración
+## 🚀 Instalación y configuración
 
-#### 1️⃣ Clonar el repositorio
+### 1️⃣ Clonar el repositorio
 ```bash
 git clone https://github.com/anabbfre/fastapi-auth-api.git
 cd fastapi-auth-api
+´´´
 
 
 2️⃣ **Crear y activar un entorno virtual** (opcional pero recomendado)
