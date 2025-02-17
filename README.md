@@ -106,7 +106,6 @@ password: contraseña_segura
 
 
 
-
 # 🔒 **Obtener perfil del usuario autenticado**
 📌 Ruta: GET /profile
 📌 Descripción: Devuelve la información del usuario autenticado.
