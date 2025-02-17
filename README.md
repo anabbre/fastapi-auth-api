@@ -58,9 +58,7 @@ uvicorn main:app --reload
 
 
 
-
-
-> **Accede a la API en http://127.0.0.1:8000/docs para probar los endpoints desde Swagger UI**
+ **Accede a la API en http://127.0.0.1:8000/docs para probar los endpoints desde Swagger UI**
 
 
 
