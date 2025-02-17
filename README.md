@@ -40,23 +40,13 @@ source venv/bin/activate  # Mac/Linux
 venv\Scripts\activate  # Windows
 ```
 
+## 3. Instalar dependencias 
+````pip install -r requirements.txt
+```
 
-
-
-
-### 2️⃣ **Crear y activar un entorno virtual** (opcional pero recomendado)
-python -m venv venv
-source venv/bin/activate  # Mac/Linux
-venv\Scripts\activate  # Windows
-
-
-### 3️⃣ Instalar dependencias
-pip install -r requirements.txt
-
-
-### 4️⃣ Ejecutar el servidor
-uvicorn main:app --reload
-
+## 4. Ejecutar el servidor
+```uvicorn main:app --reload
+```
 
 
 **Accede a la API en http://127.0.0.1:8000/docs para probar los endpoints desde Swagger UI**.
