@@ -29,11 +29,16 @@ Esta es una API de autenticación desarrollada con **FastAPI** que implementa **
 # 🚀 Instalación y configuración
 
 ## 1. Clonar el repositorio 
+```bash
+git clone https://github.com/anabbfre/fastapi-auth-api.git
+cd fastapi-auth-api
+```
 
 ### 1️⃣ Clonar el repositorio
 ```bash
 git clone https://github.com/anabbfre/fastapi-auth-api.git
 cd fastapi-auth-api
+``
 
 ## 🚀 Instalación y configuración
 
