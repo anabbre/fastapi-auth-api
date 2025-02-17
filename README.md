@@ -34,7 +34,9 @@ Esta es una API de autenticación desarrollada con **FastAPI** que implementa **
 git clone https://github.com/anabbfre/fastapi-auth-api.git
 cd fastapi-auth-api
 
-### 2 Crear y activar un entorno virutal (opcional pero recomendado) 
+## 🚀 Instalación y configuración
+
+### 1️⃣ Crear y activar un entorno virutal 
 ### 2️⃣ **Crear y activar un entorno virtual** (opcional pero recomendado)
 python -m venv venv
 source venv/bin/activate  # Mac/Linux
