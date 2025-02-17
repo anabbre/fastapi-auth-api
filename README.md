@@ -102,6 +102,8 @@ password: contraseña_segura
   "access_token": "eyJhbGciOiJIUz...",
   "token_type": "bearer"
 }
+```
+
 
 
 
@@ -111,11 +113,14 @@ password: contraseña_segura
 📌 Descripción: Devuelve la información del usuario autenticado.
 📌 Encabezado requerido:
 Authorization: Bearer <token_jwt>
-📌 Respuesta esperada:
+📌 Respuesta esperada:  
+```  
 {
   "username": "usuario123",
   "full_name": "Usuario Ejemplo"
 }
+```
+
 
 
 
