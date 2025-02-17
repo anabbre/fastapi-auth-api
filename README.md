@@ -89,7 +89,7 @@ uvicorn main:app --reload
 
 
   
-
+  
 # 🔐 **Iniciar sesión**
 📌 Ruta: POST /login  
 📌 Descripción: Permite a un usuario autenticarse y obtener un token JWT.  
