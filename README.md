@@ -112,7 +112,10 @@ password: contraseña_segura
 📌 Ruta: GET /profile  
 📌 Descripción: Devuelve la información del usuario autenticado.  
 📌 Encabezado requerido:  
-Authorization: Bearer <token_jwt>  
+```
+Authorization: Bearer <token_jwt>
+```
+  
 📌 Respuesta esperada:    
 ```  
 {
