@@ -91,10 +91,10 @@ uvicorn main:app --reload
   
 
 # 🔐 **Iniciar sesión**
-📌 Ruta: POST /login
-📌 Descripción: Permite a un usuario autenticarse y obtener un token JWT.
-📌 Parámetros (form-data):
-
+📌 Ruta: POST /login  
+📌 Descripción: Permite a un usuario autenticarse y obtener un token JWT.  
+📌 Parámetros (form-data):  
+```
 username: usuario123
 password: contraseña_segura
 📌 Respuesta esperada:
@@ -102,6 +102,8 @@ password: contraseña_segura
   "access_token": "eyJhbGciOiJIUz...",
   "token_type": "bearer"
 }
+
+
 
 
   
@@ -116,6 +118,12 @@ Authorization: Bearer <token_jwt>
   "username": "usuario123",
   "full_name": "Usuario Ejemplo"
 }
+
+
+
+
+
+
 
 
 
