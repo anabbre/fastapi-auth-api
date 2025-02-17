@@ -41,12 +41,14 @@ venv\Scripts\activate  # Windows
 ```
 
 ## 3. Instalar dependencias 
-````pip install -r requirements.txt
+```pip install -r requirements.txt
 ```
 
 ## 4. Ejecutar el servidor
 ```uvicorn main:app --reload
 ```
+
+
 
 
 **Accede a la API en http://127.0.0.1:8000/docs para probar los endpoints desde Swagger UI**.
