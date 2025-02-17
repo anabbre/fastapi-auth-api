@@ -126,9 +126,10 @@ Authorization: Bearer <token_jwt>
 
 
 
-# 🛠️ **Herramientas Adicionales**
-📌 Swagger UI: http://127.0.0.1:8000/docs
-📌 ReDoc: http://127.0.0.1:8000/redoc
+# 🛠️ **Herramientas Adicionales**  
+📌 Swagger UI: http://127.0.0.1:8000/docs  
+📌 ReDoc: http://127.0.0.1:8000/redoc  
+
 
 Ambas interfaces permiten probar la API de manera interactiva.
 
