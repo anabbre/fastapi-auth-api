@@ -140,7 +140,48 @@ Authorization: Bearer <token_jwt>
 - ReDoc: http://127.0.0.1:8000/redoc  
 
 
-Ambas interfaces permiten probar la API de manera interactiva.
+Ambas interfaces permiten probar la API de manera interactiva.  
+
+## 🚀 Cliente de la API en Python
+
+Se incluye un script `cliente_api.py` que permite probar la API de autenticación realizando las siguientes acciones:
+
+1️⃣ **Registrar un usuario**  
+2️⃣ **Obtener un token de acceso**  
+3️⃣ **Consultar el perfil autenticado**  
+
+### ▶️ **Ejecutar el cliente**
+Para ejecutar el cliente, usa el siguiente comando:
+
+```bash
+python cliente_api.py
+```
+Si todo funciona correctamente, verás en la terminal:  
+```
+🔐 Iniciando Cliente API
+
+📝 Respuesta del registro:
+{"message": "Usuario registrado correctamente"}
+
+🔑 Token obtenido:
+eyJhbGciOiJIUz...
+
+👤 Perfil del usuario:
+{"username": "usuario123", "full_name": "Usuario Ejemplo"}
+```  
+Este script es útil para realizar pruebas rápidas sin necesidad de herramientas externas como Postman.  
+```
+
+---
+
+#### 3️⃣ **Registrar los cambios en `README.md` y subirlos a GitHub**
+Una vez que hayas editado y guardado el `README.md`, súbelo al repositorio con:
+
+```bash
+git add README.md
+git commit -m "Añadida documentación sobre cliente_api.py"
+git push origin main
+```
 
 
 
