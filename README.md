@@ -33,7 +33,6 @@ Esta es una API de autenticación desarrollada con **FastAPI** que implementa **
 ```bash
 git clone https://github.com/anabbfre/fastapi-auth-api.git
 cd fastapi-auth-api
-´´´
 
 
 2️⃣ **Crear y activar un entorno virtual** (opcional pero recomendado)
