@@ -69,11 +69,12 @@ uvicorn main:app --reload
 
 
   
-🔑 **Endpoints Disponibles**  
+# 🔑 **Endpoints Disponibles**  
 📝 Registro de usuario  
 📌 Ruta: POST /register  
 📌 Descripción: Permite crear un nuevo usuario.  
 📌 Cuerpo de la solicitud (JSON):  
+```
 {  
   "username": "usuario123",  
   "full_name": "Usuario Ejemplo",  
@@ -84,7 +85,7 @@ uvicorn main:app --reload
 {  
   "message": "Usuario registrado correctamente"  
 }  
-
+```
 
 
   
