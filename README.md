@@ -11,14 +11,9 @@ Esta es una API de autenticación desarrollada con **FastAPI** que implementa **
 ┣ 📄 main.py → Código principal de la API.  
 ┣ 📄 auth.py → Lógica de autenticación (JWT y contraseñas).  
 ┣ 📄 models.py → Esquemas de datos y validaciones.  
-
-
-┣ 📄 main.py → Código principal de la API.  
-┣ 📄 auth.py → Lógica de autenticación (JWT y contraseñas).  
-┣ 📄 models.py → Esquemas de datos y validaciones.  
-┣ 📄 database.py → Simulación de base de datos (por ahora en memoria).
-┣ 📄 requirements.txt → Librerías necesarias.
-┣ 📄 README.md → Este archivo.
+┣ 📄 database.py → Simulación de base de datos (por ahora en memoria).  
+┣ 📄 requirements.txt → Librerías necesarias.  
+┣ 📄 README.md → Este archivo.  
 
 
 
@@ -59,7 +54,9 @@ uvicorn main:app --reload
 ```
 
 
+
 > **Accede a la API en http://127.0.0.1:8000/docs para probar los endpoints desde Swagger UI**
+
 
 
 
