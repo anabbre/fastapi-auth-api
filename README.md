@@ -109,11 +109,11 @@ password: contraseña_segura
 
 
 # 🔒 **Obtener perfil del usuario autenticado**
-📌 Ruta: GET /profile
-📌 Descripción: Devuelve la información del usuario autenticado.
-📌 Encabezado requerido:
-Authorization: Bearer <token_jwt>
-📌 Respuesta esperada:  
+📌 Ruta: GET /profile  
+📌 Descripción: Devuelve la información del usuario autenticado.  
+📌 Encabezado requerido:  
+Authorization: Bearer <token_jwt>  
+📌 Respuesta esperada:    
 ```  
 {
   "username": "usuario123",
@@ -127,8 +127,8 @@ Authorization: Bearer <token_jwt>
 
 
 # 🛠️ **Herramientas Adicionales**  
-📌 Swagger UI: http://127.0.0.1:8000/docs  
-📌 ReDoc: http://127.0.0.1:8000/redoc  
+- Swagger UI: http://127.0.0.1:8000/docs  
+- ReDoc: http://127.0.0.1:8000/redoc  
 
 
 Ambas interfaces permiten probar la API de manera interactiva.
