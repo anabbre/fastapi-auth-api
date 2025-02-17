@@ -26,8 +26,9 @@ Esta es una API de autenticación desarrollada con **FastAPI** que implementa **
 
 
 
+# 🚀 Instalación y configuración
 
-## 🚀 Instalación y configuración
+## 1. Clonar el repositorio 
 
 ### 1️⃣ Clonar el repositorio
 ```bash
