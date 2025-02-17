@@ -26,7 +26,10 @@ Esta es una API de autenticación desarrollada con **FastAPI** que implementa **
 
 
 
+
+
 # 🚀 Instalación y configuración
+
 
 ## 1. Clonar el repositorio 
 ```bash
@@ -53,7 +56,7 @@ uvicorn main:app --reload
 
 
 
-**Accede a la API en http://127.0.0.1:8000/docs para probar los endpoints desde Swagger UI**.
+> **Accede a la API en http://127.0.0.1:8000/docs para probar los endpoints desde Swagger UI**
 
 
 
