@@ -41,11 +41,13 @@ venv\Scripts\activate  # Windows
 ```
 
 ## 3. Instalar dependencias 
-```pip install -r requirements.txt
+```
+pip install -r requirements.txt
 ```
 
 ## 4. Ejecutar el servidor
-```uvicorn main:app --reload
+```
+uvicorn main:app --reload
 ```
 
 
