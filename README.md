@@ -80,8 +80,11 @@ uvicorn main:app --reload
   "full_name": "Usuario Ejemplo",  
   "email": "usuario@email.com",  
   "password": "contraseña_segura"  
-}  
+}
+```
+
 📌 Respuesta esperada:  
+```
 {  
   "message": "Usuario registrado correctamente"  
 }  
